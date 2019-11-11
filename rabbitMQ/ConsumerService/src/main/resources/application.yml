@@ -1,0 +1,33 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: manager-service
+
+celsius:
+  exchange:
+    name: celsius.exchange
+  queue:
+    name: celsius.queue
+  routing:
+    key: celsius.routingKey
+ph:
+  exchange:
+    name: ph.exchange
+  queue:
+    name: ph.queue
+  routing:
+    key: ph.routingKey
+
+
+##############################################
+############ RABBIT CONFIGURATION ############
+##############################################
+rabbitmq:
+  host: localhost
+  port: 5762
+  username: guest
+  password: guest
+  celsius-queue-name: celsius.queue
+  ph-queue-name: ph.queue
