@@ -15,7 +15,7 @@ eureka:
     healthcheck:
       enabled: true
   instance:
-    appname: manager-service
+    appname: consumer-service
     preferIpAddress: true
     statusPageUrlPath: /actuator/info
     healthCheckUrlPath: actuator/health
