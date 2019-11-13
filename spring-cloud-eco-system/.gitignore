@@ -1,5 +1,8 @@
 /.metadata/
-/.idea
-/.mvn
-/.gitignore
+*/.idea
+*/.idea/**
+*/.mvn
+*/.mvn/**
 */.gitignore
+*/.gitignore/**
+*/target/**
